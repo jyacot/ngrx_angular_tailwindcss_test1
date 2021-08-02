@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.btn {
+  @apply border-2 text-white p-2 min-w-full;
+}
